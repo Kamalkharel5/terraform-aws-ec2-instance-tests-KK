@@ -29,10 +29,10 @@ resource "aws_instance" "app" {
   tags = var.tags
 }
 
-module "terraform-aws-s3-bucket-KK-2" {
-  source  = "app.terraform.io/policy-as-code-training/terraform-aws-s3-bucket-KK-2/aws"
-  version = "1.1.0"
+# module "terraform-aws-s3-bucket-KK-2" {
+#   source  = "app.terraform.io/policy-as-code-training/terraform-aws-s3-bucket-KK-2/aws"
+#   version = "1.1.0"
 
-  bucket_name = "kk-tf-hcp-s3-module-2026-05-19-9x7p3" # insert required variables here
+#   bucket_name = "kk-tf-hcp-s3-module-2026-05-19-9x7p3" # insert required variables here
   
-}
+# }
