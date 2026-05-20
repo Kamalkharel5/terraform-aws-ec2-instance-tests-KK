@@ -12,4 +12,5 @@ module "ec2_instances" {
   instance_type  = "t2.micro"
 
 
+
 }
