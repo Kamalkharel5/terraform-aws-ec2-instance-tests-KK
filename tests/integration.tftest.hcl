@@ -1,4 +1,7 @@
 # tests/integration.tftest.hcl
+provider "aws" {
+  region = "us-west-1"
+}
 
 run "setup_infrastructure" {
   module {
